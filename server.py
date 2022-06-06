@@ -18,7 +18,6 @@ def loadpage():
     print(month)
     day = request.args.get('day')
     print(day)
-    #url = "https://web.archive.org/web/" + str(year) + "07" + "11" + "043326if_/" + url
     url = "https://web.archive.org/web/" + str(year) + str(month) + str(day) + "043326if_/" + url
     print(url)
     return render_template("loadpage.html", url=url)
