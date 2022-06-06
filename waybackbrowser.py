@@ -1,17 +1,11 @@
 import PyQt5.sip
 import PyQt5
-#from import PyQt5
-#from PyQt5.QtWidgets import *
 from PyQt5.QtWidgets import QLabel, QToolBar, QAction, QStatusBar, QMainWindow, QLineEdit, QApplication
 from PyQt5.QtWebChannel import QWebChannel
 import PyQt5.QtNetwork
 import PyQt5.QtWebEngineCore
-#import PyQt5.QtWebEngineWidgets
 import PyQt5.QtPrintSupport
-#from PyQt5.QtWebEngineWidgets import QWebEngineView
-#from PyQt5.QtWebEngineWidgets import *
 from PyQt5.QtWebEngineWidgets import QWebEngineView
-#from PyQt5.QtCore import *
 from PyQt5.QtCore import QUrl, QDate 
 from PyQt5 import QtCore, QtWidgets, QtGui
 import os
@@ -19,7 +13,7 @@ import sys
 import subprocess
 
 import ctypes
-myappid = 'skiingisfun123.netsurferbrowser.application' # arbitrary string
+myappid = 'skiingisfun123.waybackbrowser.application'
 ctypes.windll.shell32.SetCurrentProcessExplicitAppUserModelID(myappid)
 global year
 class Window(QMainWindow):
@@ -31,9 +25,6 @@ class Window(QMainWindow):
         self.show()
         self.setProperty('iconSize', 400)
         self.browser = QWebEngineView()
-        #file_path = os.path.abspath(os.path.join(os.path.dirname(__file__), "home.html"))
-        #local_url = QUrl.fromLocalFile(file_path)
-        #self.browser.setUrl(QUrl(local_url))
         self.browser.setUrl(QUrl("http://127.0.0.1:5000/home"))
         self.setCentralWidget(self.browser)
         self.showMaximized()
@@ -83,21 +74,8 @@ class Window(QMainWindow):
         connecting.setText("  Connecting...")
         self.statusBar.addWidget(connecting)
     def home(self):
-        #self.browser.setUrl(QUrl('https://web.archive.org/web/20000711043326if_/http://google.com'))
-        #file_path = os.path.abspath(os.path.join(os.path.dirname(__file__), "home.html"))
-        #local_url = QUrl.fromLocalFile(file_path)
-        #urltoload = "http://127.0.0.1:5000/loadpage?url=" + self.searchBar.text() + '&year=' + year + "&month=" + month + "&day=" + day
-        #self.browser.setUrl(QUrl(urltoload))
         self.browser.setUrl(QUrl("http://127.0.0.1:5000/home"))
     def loadUrl(self):
-        #fetching entered url from searchBar
-        #url = self.searchBar.text()
-        #url = "https://web.archive.org/web/20000711043326if_/" + self.searchBar.text()
-        #loading url
-        #loadpagescript = "home.html"
-        #file_path = os.path.abspath(os.path.join(os.path.dirname(__file__), loadpagescript))
-        #local_url = QUrl.fromLocalFile(file_path)
-        #self.browser.setUrl(QUrl(url))
         print(self.dateedit.dateTime())
         newDate = self.dateedit.dateTime()
         print("The new date is "+newDate.toString())
@@ -172,7 +150,6 @@ class Window(QMainWindow):
         urltoload = "http://127.0.0.1:5000/loadpage?url=" + urlforuse + '&year=' + year + '&month=' + month + '&day=' + day
         print(urltoload)
         self.browser.setUrl(QUrl(urltoload))
-        #print(newDate)
 MyApp = QApplication(sys.argv)
 QApplication.setApplicationName('Wayback Browser')
 p = subprocess.Popen(['python', 'server.py'], shell=True)
