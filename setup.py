@@ -15,5 +15,4 @@ setup(
     includes = ['jinja2.ext'],
     options={"build_exe":{"packages":[],
                       "include_files":['templates\loadpage.html', 'home.png', 'logo.png', 'reload.png', 'back.png', 'forward.png', 'templates', 'templates\home.html', 'server.py']}},
-    #includefiles = ['templates\loadpage.html', 'home.png', 'logo.png', 'reload.png', 'back.png', 'forward.png', 'templates', 'home.html', 'server.py'],
 )
