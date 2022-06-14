@@ -11,7 +11,7 @@ A browser for wayback machine pages (https://archive.org/web/) which allows a us
 
 - Make a build for macOS and Linux users
 
-<h2><strong>👨‍💻 Getting started/strong></h2>
+<h2><strong>👨‍💻 Getting started</strong></h2>
 
   1. Download all files from the Github releases page
   2. Extract files into a folder
