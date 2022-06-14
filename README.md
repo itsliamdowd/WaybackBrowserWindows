@@ -2,6 +2,7 @@
 A browser for wayback machine pages (https://archive.org/web/) which allows a user to choose a date and load websites like a regular browser as if they were viewed in the date inputted. For example, loading the google website in the 90s and 2000s as well as the current website all in a traditional browser environment.
 
 <h2>TODO:</h2>
+
 - Make a better user interface on the application side of things
 
 - Make the web browsing experiance better with a more zoomed in browser to accomidate earlier screen sizes in a modern format
