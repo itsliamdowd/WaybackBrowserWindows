@@ -1,7 +1,7 @@
 ### Wayback-Browser
 A browser for wayback machine pages (https://archive.org/web/) which allows a user to choose a date and load websites like a regular browser as if they were viewed in the date inputted. For example, loading the google website in the 90s and 2000s as well as the current website all in a traditional browser environment.
 
-###TODO:
+<h1>TODO:</h1>
 - Make a better user interface on the application side of things
 - Make the web browsing experiance better with a more zoomed in browser to accomidate earlier screen sizes in a modern format
 - Improve the icons on the browser 
@@ -9,20 +9,20 @@ A browser for wayback machine pages (https://archive.org/web/) which allows a us
 
 
 
-##For Users:
+<h1>For Users:</h1>
 
-#To use the browser:
+To use the browser:
   1. Download all files from the Github releases page
   2. Extract files into a folder
   4. Open the directory where the files are saved
   5. Run the file "waybackbrowser.exe"
   6. And that's it! You'll be able to explore the early internet easily!
 
-##For Developers:
+<h1>For Developers:</h1>
 
-#Feel free to make any modifications and share them so that the browser can be improved.
+Feel free to make any modifications and share them so that the browser can be improved.
 
-#To start developing the browser:
+To start developing the browser:
   1. Download all files by cloning the Github page
   2. Open a terminal window
   3. Open the directory where the files are saved in the terminal
@@ -30,7 +30,7 @@ A browser for wayback machine pages (https://archive.org/web/) which allows a us
   5. Run the file "waybackbrowser.py"
   6. And that's it! You'll be able to edit any files, make any other changes, and run the program from its source code!
 
-#To compile the code into a build:
+To compile the code into a build:
   1. Follow all steps under "To start developing the browser"
   2. Open a terminal window in the location of the folder where the files are saved
   3. Run the command "python setup.py build"
