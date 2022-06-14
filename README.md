@@ -18,7 +18,7 @@ A browser for wayback machine pages (https://archive.org/web/) which allows a us
   4. Open the directory where the files are saved
   5. Run the file "waybackbrowser.exe"
 
-<h2><strong>For Developers</strong> </h2>
+<h2><strong>For Developers</strong> 💡</h2>
 
 <p>Feel free to make any modifications and share them so that the browser can be improved.</p>
 
