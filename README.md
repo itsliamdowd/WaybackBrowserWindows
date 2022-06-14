@@ -22,7 +22,7 @@ A browser for wayback machine pages (https://archive.org/web/) which allows a us
 
 <p>Feel free to make any modifications and share them so that the browser can be improved.</p>
 
-<h3><strong>Getting Started</strong> 💻</h3>
+<h3><strong>Getting Started</strong>  💻</h3>
 
 
   1. Download all files by cloning the Github page
@@ -31,7 +31,7 @@ A browser for wayback machine pages (https://archive.org/web/) which allows a us
   4. Download all dependencies in "requirements.txt" by using "pip install -r requirements.txt"
   5. Run the file "waybackbrowser.py"
 
-<h3><strong>Creating a build</strong> 🔨</h3>
+<h3><strong>Creating a build</strong>  🔨</h3>
 
 
   1. Follow all steps under "To start developing the browser"
