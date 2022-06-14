@@ -3,8 +3,11 @@ A browser for wayback machine pages (https://archive.org/web/) which allows a us
 
 <h2>TODO:</h2>
 - Make a better user interface on the application side of things
+
 - Make the web browsing experiance better with a more zoomed in browser to accomidate earlier screen sizes in a modern format
-- Improve the icons on the browser 
+
+- Improve the icons on the browser
+
 - Make a build for macOS and Linux users
 
 <h2>For Users:</h2>
