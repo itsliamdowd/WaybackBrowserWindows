@@ -1,7 +1,7 @@
-<h1>Wayback-Browser 💻 ⏰</h1>
+<h1><strong>Wayback-Browser</strong> 💻 ⏰</h1>
 A browser for wayback machine pages (https://archive.org/web/) which allows a user to choose a date and load websites like a regular browser as if they were viewed in the date inputted. For example, loading the google website in the 90s and 2000s as well as the current website all in a traditional browser environment.
 
-<h2<strong>TODO</strong> 📌</h2>
+<h2><strong>TODO</strong> 📌</h2>
 
 - Make a better user interface on the application side of things
 
@@ -11,14 +11,14 @@ A browser for wayback machine pages (https://archive.org/web/) which allows a us
 
 - Make a build for macOS and Linux users
 
-<h2<strong>For Users</strong> 👨‍💻</h2>
+<h2><strong>For Users</strong> 👨‍💻</h2>
 
   1. Download all files from the Github releases page
   2. Extract files into a folder
   4. Open the directory where the files are saved
   5. Run the file "waybackbrowser.exe"
 
-<h2<strong>For Developers</strong> </h2>
+<h2><strong>For Developers</strong> </h2>
 
 <p>Feel free to make any modifications and share them so that the browser can be improved.</p>
 
