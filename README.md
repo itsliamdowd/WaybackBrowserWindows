@@ -1,23 +1,23 @@
 # Wayback-Browser
-A browser for wayback machine pages (https://archive.org/web/) which allows a user to choose a date and load websites like a regular browser as if they were viewed in the date inputted. For example, loading the google website in the 90's and 2000's as well as the current website all in a traditional browser environment.
+A browser for wayback machine pages (https://archive.org/web/) which allows a user to choose a date and load websites like a regular browser as if they were viewed in the date inputted. For example, loading the google website in the 90s and 2000s as well as the current website all in a traditional browser environment.
 
 
 For Users:
 
 To use the browser:
-  1. Download all files from the github releases page
+  1. Download all files from the Github releases page
   2. Extract files into a folder
   4. Open the directory where the files are saved
   5. Run the file "waybackbrowser.exe"
-  6. And that's it! You'll be able to explore the early internet in an easy way!
+  6. And that's it! You'll be able to explore the early internet easily!
 
 For Developers:
 
 Feel free to make any modifications and share them so that the browser can be improved.
 
 To start developing the browser:
-  1. Download all files through cloning the github page
-  2. Open terminal
+  1. Download all files by cloning the Github page
+  2. Open a terminal window
   3. Open the directory where the files are saved in the terminal
   4. Download all dependencies in "requirements.txt" by using "pip install -r requirements.txt"
   5. Run the file "waybackbrowser.py"
@@ -29,6 +29,6 @@ To compile the code into a build:
   3. Run the command "python setup.py build"
   4. Wait until the program stops running
   5. Select the files produced under the "build" folder and compile them into a ".zip" folder using any program you want
-  6. Go on github and select "create a new release"
+  6. Go on Github and select "create a new release"
   7. Upload the ".zip" folder you just created as a release
   8. And that's it! You just published a release!
